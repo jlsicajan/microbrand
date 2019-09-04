@@ -7,10 +7,10 @@
 //Custom scss for template
 @import "template/colors";
 @import "template/landing";
+@import "template/header";
 
 .navbar-laravel {
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .color-white {

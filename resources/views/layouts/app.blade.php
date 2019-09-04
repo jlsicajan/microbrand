@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'MICROBRAND') }}
+                    <img src="/images/logo.png" alt="MICROBRAND">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -37,15 +37,27 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="btn main_text_color header mr-4" href="{{ route('register') }}"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn main_text_color header mr-4" href="{{ route('register') }}"> For Influencers </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn main_text_color header mr-4" href="{{ route('register') }}"> For Brands </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn main_text_color header mr-4" href="{{ route('register') }}"> Contact </a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="submit" class="btn for_brands_button header main_text_color mr-4" href="{{ route('register') }}"> <strong>FOR BRANDS</strong> </button>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <button type="submit" class="btn green_button header color-white" href="{{ route('register') }}"> <strong>INFLUENCER REGISTRATION</strong> </button>
                                 </li>
                             @endif
                         @else

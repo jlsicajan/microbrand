@@ -1,0 +1,15 @@
+.green_button.header {
+    height: 46px;
+    width: 235px;
+    border: unset;
+}
+
+.for_brands_button.header {
+    height: 46px;
+    width: 125px;
+    border: 2px;
+    border-style: dashed;
+    border-color: #D6B4E7;
+    --dash-size: 6px;
+    --gap-size: 3px;
+}
