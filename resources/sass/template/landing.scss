@@ -1,0 +1,54 @@
+.orange_background {
+    background-color: $orange_color;
+}
+
+.orange_button {
+    background-color: $orange_color;
+    border-radius: 4px;
+    width: 349px;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px $shadow_orange;
+}
+
+.green_button {
+    background-color: $green_color;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px $shadow_green;
+    width: 349px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.main_text_color_background {
+    color: $text_main_color;
+}
+
+.influencer_login {
+    font-size: 24px;
+    font-weight: 700;
+    color: $text_main_color;
+}
+
+.main_input_style {
+    background-color: $input_background_color;
+    border-radius: 4px;
+    width: 349px;
+    height: 50px;
+    overflow: hidden;
+
+    &::placeholder{
+        color: $text_main_color;
+    }
+}
+
+.dont_have_an_account {
+    color: $text_main_color;
+    font-size: 14px;
+}
+
+.card-container-login{
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, .16);
+    border-radius: 10px;
+    border: unset !important;
+}
