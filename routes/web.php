@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/login_otp', 'OtpController@login_otp')->name('login_otp');
+Route::get('/login_otp_image', 'OtpController@login_otp_image')->name('login_otp_image');

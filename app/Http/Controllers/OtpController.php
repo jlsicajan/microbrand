@@ -15,4 +15,9 @@ class OtpController extends Controller
     {
         return view('auth.login_otp');
     }
+
+    public function login_otp_image()
+    {
+        return view('auth.login_otp_image');
+    }
 }

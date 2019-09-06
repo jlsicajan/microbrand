@@ -10762,6 +10762,17 @@ a.text-dark:focus {
   color: #4a658a;
 }
 
+.main_login_background {
+  background-image: url("/images/main_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
 .green_button.header {
   height: 46px;
   width: 235px;

@@ -99,3 +99,14 @@
         color: $text_main_color;
     }
 }
+
+.main_login_background {
+    background-image: url("/images/main_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h-100vh {
+    height: 100vh;
+}
